@@ -109,19 +109,4 @@ void set_native_locale( void ) {
 }
 
 void clear_locale_variables( void ) {
-  unsetenv( "LANG" );
-  unsetenv( "LANGUAGE" );
-  unsetenv( "LC_CTYPE" );
-  unsetenv( "LC_NUMERIC" );
-  unsetenv( "LC_TIME" );
-  unsetenv( "LC_COLLATE" );
-  unsetenv( "LC_MONETARY" );
-  unsetenv( "LC_MESSAGES" );
-  unsetenv( "LC_PAPER" );
-  unsetenv( "LC_NAME" );
-  unsetenv( "LC_ADDRESS" );
-  unsetenv( "LC_TELEPHONE" );
-  unsetenv( "LC_MEASUREMENT" );
-  unsetenv( "LC_IDENTIFICATION" );
-  unsetenv( "LC_ALL" );
 }
